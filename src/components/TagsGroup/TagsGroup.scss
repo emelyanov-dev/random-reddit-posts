@@ -1,0 +1,31 @@
+@keyframes tag-move-anim {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.tags-group {
+  margin-bottom: 24px;
+
+  &__row {
+    margin: 8px 0;
+    position: relative;
+    height: 40px;
+  }
+
+  &__tag {
+    position: absolute;
+    left: 0;
+    width: 120px;
+    //animation: tag-move-anim 5s;
+    //animation-iteration-count: infinite;
+    //animation-direction: alternate-reverse;
+    //transition: right, left;
+  }
+}

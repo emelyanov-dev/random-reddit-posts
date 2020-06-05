@@ -1,0 +1,32 @@
+.feed {
+  margin: -8px;
+
+  &__drop-here {
+    height: 56px;
+    background: lightblue;
+  }
+
+  &__item-wrapper {
+    height: 56px;
+  }
+
+  &__item {
+    -webkit-user-drag: element;
+    &_drop-here {
+      border-top: 2px solid #2F80ED;
+    }
+  }
+
+  &__item-loader {
+    height: 56px;
+
+    padding: 8px 8px 8px 16px;
+  }
+
+  &__item-pseudo {
+    height: 24px;
+    width: 100%;
+    background-color: #e1ebf9;
+    border-radius: 4px;
+  }
+}

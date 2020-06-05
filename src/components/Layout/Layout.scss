@@ -1,0 +1,16 @@
+body {
+  background: #FDFDFD;
+}
+
+.layout {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+
+  &__container {
+    max-width: 516px;
+    margin: 0 auto;
+    padding: 16px 8px;
+  }
+}
